@@ -1,0 +1,51 @@
+Programy pisane na zajęciach z podstaw programowania w TEB.
+
+* zajecia1
+** program1.pas
+Program obliczający pole prostokąta o zadanych bokach.
+
+Podstawowy program pokazujacy jak odczytać parametry, wykonać
+obliczenia i wypisać na ekranie.
+
+** program2.pas
+Moja wariacja na temat obliczanaia pól figur geometrycznych.
+
+Program pokazuje jak pobrać parametry podawane w linii komend
+programu.
+
+Na podstawie zadanych parametrów program oblicza pole powierzchi koła,
+prostokąta, elipsy.
+
+Do wywołania programu jako pierwszy parametr należy podac rodzaj
+figury dla której będzie obliczane pole powierzchni:
+k lub K: koło
+p lub P: prostokąt
+e lub E: elipsa
+
+W zależności od podanego typu figury można podac jedną lub dwie liczby
+które będą oznaczały odpowiednie wartości boków lub promieni.
+Wymagane jest podanie przynajmniej jednej liczby.
+Druga liczba jest opcjonalna. Jeżeli nie zostanie podana to będzie
+użyty pierwszy wymiar.
+
+** program3.pas
+Program sprawdzający i wypisujący relację podanej liczby względem
+zera.
+
+Program demonstrujący użycie instrukcji warunkowej if.
+
+** dni_tygodnia.pas
+Program wypisujący nazwę dnia tygodnia podanego jako cyfra.
+
+Kontynuacja zabawy z instrukcją warunkową if.
+
+** pierwiastki.pas
+Program obliczający pierwiastki równania kwadratowego.
+
+Moja wariacja na ten temat wszytująca parametry w linii poleceń.
+
+
+# Local variables:
+# mode:  org fill
+# coding: utf-8-unix
+# End:

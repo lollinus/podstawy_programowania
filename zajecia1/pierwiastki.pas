@@ -43,12 +43,12 @@ BEGIN
 
    IF delta > 0 THEN
    BEGIN
-      Writeln('Dwa pierwiastki x1:', (-b - sqrt(delta) / 2 * a):8:3, ' x2: ', (-b+sqrt(delta)/2*a):8:3);
+      Writeln('Dwa pierwiastki x1:', ((-b-sqrt(delta))/(2*a)):8:3, ' x2: ', ((-b+sqrt(delta))/(2*a)):8:3);
       halt(0);
    END
    ELSE IF delta = 0 THEN
    BEGIN
-      Writeln('Jeden pierwiastek x0: ', (-b / 2 * a):8:3);
+      Writeln('Jeden pierwiastek x0: ', (-b/(2*a)):8:3);
       halt(0);
    END;
    Writeln('Brak pierwiastkow');
